@@ -6,6 +6,15 @@
 
 ---
 
+## 🚀 Downloads (v0.1.0)
+
+Grab ready-to-run binaries from [Releases](https://github.com/necrisscript/bautismo_profano/releases/latest):
+
+* **Linux:** `bautismo_profano-linux.AppImage` (portable, grant execute permission to run)
+* **Windows:** `bautismo_profano.exe` (standalone executable)
+
+---
+
 ## 🛠️ Project Architecture
 
 The project is modularly structured using LÖVE2D, clearly separating global configuration, the main game loop, combat logic, static data, entity management, and the user interface:
@@ -14,6 +23,8 @@ The project is modularly structured using LÖVE2D, clearly separating global con
 .
 ├── assets/                  # Visual assets (sprites, icons, and backgrounds)
 ├── conf.lua                 # LÖVE2D window and engine configuration
+├── docs/
+│   └── screenshot.png       # Game preview screenshot
 ├── main.lua                 # Entry point and main game loop
 └── src/
     ├── data.lua             # Catalog of player classes, supplies, and floor-based enemies
@@ -21,7 +32,6 @@ The project is modularly structured using LÖVE2D, clearly separating global con
     ├── i18n.lua             # Internationalization system (ES / EN / PT)
     ├── logic.lua            # BattleManager, turn loops, damage formulas, AI intent, and loot
     └── ui.lua               # Screen rendering, menus, and touch-friendly UI layout
-
 ```
 
 ---
@@ -29,9 +39,7 @@ The project is modularly structured using LÖVE2D, clearly separating global con
 ## ⚔️ Key Mechanics
 
 * **Defense Mitigation:** Damage scales smoothly using a percentage reduction formula (attack * (100 / (100 + defense))) to prevent combat stagnation.
-
 * **Enemy Intent:** Enemies telegraph their next move (attack, defend, potion, or rune) so players can plan tactics.
-
 * **Dungeon Progression:** Enemies scale dynamically by floor using multipliers, culminating in a boss battle on floor 7.
 
 ---
@@ -48,13 +56,17 @@ The project is modularly structured using LÖVE2D, clearly separating global con
 
 ## ⚙️ Installation & Execution
 
+If you prefer running from source instead of using the precompiled binaries:
+
 1. Install the [LÖVE (Love2D)](https://love2d.org/) framework.
 2. Clone the repository:
+
 ```bash
-git clone https://github.com/tu-usuario/bautismo-profano.git
+git clone [https://github.com/necrisscript/bautismo_profano.git](https://github.com/necrisscript/bautismo_profano.git)
 ```
 
 3. Run the game by dragging the root folder onto the LÖVE executable or via terminal:
+
 ```bash
 love .
 ```
@@ -63,5 +75,5 @@ love .
 
 ## 📜 License
 
-* **Source Code:** [MIT License](https://www.google.com/search?q=LICENSE).
+* **Source Code:** [MIT License](https://www.google.com/search?q=https://github.com/necrisscript/bautismo_profano/blob/main/LICENSE).
 * **Assets:** Generated via AI and free to use for this project.
