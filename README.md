@@ -2,6 +2,8 @@
 
 > A dark, tactical combat game developed using LÖVE2D and Lua, designed for touch screens and mouse controls.
 
+![Bautismo Profano Gameplay](https://raw.githubusercontent.com/necrisscript/bautismo_profano/main/docs/screenshot.png)
+
 ---
 
 ## 🛠️ Project Architecture
