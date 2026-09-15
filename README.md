@@ -154,5 +154,3 @@ El juego está disponible en los siguientes idiomas:
 
 - **Código fuente:** [Licencia MIT](https://github.com/necrisscript/bautismo_profano/blob/main/LICENSE).
 - **Recursos:** generados mediante IA y disponibles para su uso dentro de este proyecto.
-```
-
