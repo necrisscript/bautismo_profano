@@ -1,17 +1,17 @@
-# 🩸 Dungeon Crawler
+# 🩸 Bautismo Profano
 
 > Un juego de combate táctico y oscuro desarrollado con LÖVE2D y Lua, diseñado para pantallas táctiles y controles con ratón.
 
-![Gameplay de Bautismo Profano](https://raw.githubusercontent.com/necrisscript/dungeon_crawler/main/docs/screenshot.png)
+![Gameplay de Bautismo Profano](https://raw.githubusercontent.com/necrisscript/bautismo_profano/main/docs/screenshot.png)
 
 ---
 
 ## 🚀 Descargas (v0.1.0)
 
-Descarga los binarios listos para usar desde [Releases](https://github.com/necrisscript/dungeon_crawler/releases/latest):
+Descarga los binarios listos para usar desde [Releases](https://github.com/necrisscript/bautismo_profano/releases/latest):
 
-* **Linux:** `dungeon_crawler-linux.AppImage` — portable; dale permisos de ejecución para iniciarlo.
-* **Windows:** `dungeon_crawler.exe` — ejecutable independiente.
+* **Linux:** `bautismo_profano-linux.AppImage` — portable; dale permisos de ejecución para iniciarlo.
+* **Windows:** `bautismo_profano.exe` — ejecutable independiente.
 
 ---
 
@@ -62,7 +62,7 @@ Si prefieres ejecutar el juego desde el código fuente en lugar de utilizar los 
 2. Clona el repositorio:
 
 ```bash
-git clone https://github.com/necrisscript/dungeon_crawler.git
+git clone https://github.com/necrisscript/bautismo_profano.git
 ```
 
 3. Ejecuta el juego arrastrando la carpeta raíz sobre el ejecutable de LÖVE o desde la terminal:
@@ -81,5 +81,5 @@ Este proyecto fue creado principalmente para experimentar, aprender y pasar un b
 
 ## 📜 Licencia
 
-* **Código fuente:** [Licencia MIT](https://www.google.com/search?q=https://github.com/necrisscript/dungeon_crawler/blob/main/LICENSE).
+* **Código fuente:** [Licencia MIT](https://www.google.com/search?q=https://github.com/necrisscript/bautismo_profano/blob/main/LICENSE).
 * **Recursos:** generados mediante IA y disponibles para usarse en este proyecto.
