@@ -1,34 +1,34 @@
 local Data = {}
 
 -- ==========================================================
--- CLASES
+-- CLASES (Balanceadas con identidades de rol únicas)
 -- ==========================================================
 
 Data.classes = {
     warrior = {
         name_key = "class_1_name",
         description_key = "class_1_desc",
-        hp = 150,
-        ataque = 14,
-        defensa = 13,
-        afilado_bonus = 10
+        hp = 140,
+        ataque = 22,
+        defensa = 28,
+        afilado_bonus = 8
     },
 
     explorer = {
         name_key = "class_2_name",
         description_key = "class_2_desc",
-        hp = 150,
-        ataque = 20,
-        defensa = 4,
-        afilado_bonus = 10
+        hp = 110,
+        ataque = 26,
+        defensa = 18,
+        afilado_bonus = 12
     },
 
     barbarian = {
         name_key = "class_3_name",
         description_key = "class_3_desc",
-        hp = 150,
-        ataque = 34,
-        defensa = 2,
+        hp = 170,
+        ataque = 32,
+        defensa = 12,
         afilado_bonus = 15
     }
 }
@@ -52,7 +52,7 @@ Data.supplies = {
 }
 
 -- ==========================================================
--- ENEMIGOS
+-- ENEMIGOS (Progresión de poder equilibrada por pisos)
 -- ==========================================================
 
 Data.enemies = {
@@ -62,24 +62,24 @@ Data.enemies = {
             name_key = "enemy_rat",
             sprite = "rat",
             hp = 25,
-            atk = 8,
+            atk = 9,
             def = 4
         },
 
         {
             name_key = "enemy_zombie",
             sprite = "zombie",
-            hp = 40,
-            atk = 10,
-            def = 5
+            hp = 38,
+            atk = 11,
+            def = 6
         },
 
         {
             name_key = "enemy_kobold",
             sprite = "kobold",
-            hp = 20,
-            atk = 12,
-            def = 6
+            hp = 22,
+            atk = 13,
+            def = 3
         }
     },
 
@@ -87,25 +87,25 @@ Data.enemies = {
         {
             name_key = "enemy_spider",
             sprite = "spider",
-            hp = 50,
-            atk = 14,
+            hp = 45,
+            atk = 16,
             def = 7
         },
 
         {
             name_key = "enemy_skeleton",
             sprite = "skeleton",
-            hp = 60,
-            atk = 16,
-            def = 4
+            hp = 52,
+            atk = 18,
+            def = 8
         },
 
         {
             name_key = "enemy_goblin",
             sprite = "goblin",
-            hp = 45,
-            atk = 18,
-            def = 9
+            hp = 40,
+            atk = 20,
+            def = 5
         }
     },
 
@@ -113,25 +113,25 @@ Data.enemies = {
         {
             name_key = "enemy_orc",
             sprite = "orc",
-            hp = 80,
-            atk = 22,
-            def = 11
+            hp = 75,
+            atk = 25,
+            def = 12
         },
 
         {
             name_key = "enemy_jelly",
             sprite = "jelly",
-            hp = 100,
-            atk = 20,
-            def = 10
+            hp = 90,
+            atk = 22,
+            def = 15
         },
 
         {
             name_key = "enemy_mimic",
             sprite = "mimic",
-            hp = 85,
-            atk = 24,
-            def = 12
+            hp = 68,
+            atk = 28,
+            def = 10
         }
     },
 
@@ -139,25 +139,25 @@ Data.enemies = {
         {
             name_key = "enemy_gargoyle",
             sprite = "gargoyle",
-            hp = 110,
-            atk = 28,
-            def = 16
+            hp = 100,
+            atk = 32,
+            def = 22
         },
 
         {
             name_key = "enemy_cultist",
             sprite = "cultist",
-            hp = 90,
-            atk = 32,
-            def = 16
+            hp = 82,
+            atk = 36,
+            def = 14
         },
 
         {
             name_key = "enemy_ogre",
             sprite = "ogre",
-            hp = 140,
-            atk = 30,
-            def = 15
+            hp = 125,
+            atk = 34,
+            def = 16
         }
     },
 
@@ -165,25 +165,25 @@ Data.enemies = {
         {
             name_key = "enemy_shadow",
             sprite = "wraith",
-            hp = 130,
-            atk = 40,
-            def = 20
+            hp = 115,
+            atk = 42,
+            def = 18
         },
 
         {
             name_key = "enemy_minotaur",
             sprite = "minotaur",
-            hp = 200,
-            atk = 45,
-            def = 25
+            hp = 160,
+            atk = 46,
+            def = 24
         },
 
         {
             name_key = "enemy_wraith",
             sprite = "wraith",
-            hp = 140,
-            atk = 48,
-            def = 24
+            hp = 120,
+            atk = 50,
+            def = 15
         }
     },
 
@@ -191,25 +191,25 @@ Data.enemies = {
         {
             name_key = "enemy_incubus",
             sprite = "incubus",
-            hp = 280,
-            atk = 55,
-            def = 30
+            hp = 210,
+            atk = 58,
+            def = 28
         },
 
         {
             name_key = "enemy_succubus",
             sprite = "succubus",
-            hp = 230,
-            atk = 60,
-            def = 12
+            hp = 185,
+            atk = 64,
+            def = 20
         },
 
         {
             name_key = "enemy_vampire",
             sprite = "vampire",
-            hp = 250,
-            atk = 65,
-            def = 30
+            hp = 200,
+            atk = 68,
+            def = 25
         }
     },
 
@@ -217,9 +217,9 @@ Data.enemies = {
         {
             name_key = "enemy_archmage",
             sprite = "archmage",
-            hp = 550,
-            atk = 85,
-            def = 40,
+            hp = 420,
+            atk = 80,
+            def = 35,
             boss = true
         }
     }

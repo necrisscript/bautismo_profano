@@ -5,6 +5,33 @@ i18n.current_lang = "es"
 i18n.translations = {
 
     en = {
+        -- ==========================================
+        -- MENÚ DE PAUSA / OPCIONES GLOBALES
+        -- ==========================================
+        exit_game = "Exit Game",
+        resume_game = "Resume Game",
+        fullscreen_on = "Fullscreen: ON",
+        fullscreen_off = "Fullscreen: OFF",
+        language_label = "Language: English",
+        menu = "Menu",
+
+        -- ==========================================
+        -- RESTO DEL JUEGO
+        -- ==========================================
+        new_record = "New High Score!",
+        enter_name = "Enter your name (max. 16 chars):",
+        save_record = "Save Score",
+        cancel = "Cancel",
+
+        play_btn = "PLAY",
+        records_btn = "HIGH SCORES",
+        records_title = "TOP 10 HIGH SCORES",
+        no_records = "No records registered yet.",
+        back = "BACK",
+
+        record_display = "Record: Tier %d - Fight %d/3",
+        record_victory = "Record: Tier 7 (Final Boss Reached/Defeated)!",
+
         loot_found = "Found: ",
 
         title = "BAUTISMO PROFANO",
@@ -12,28 +39,28 @@ i18n.translations = {
 
         arsenal = "STEEL MARKET - Choose your Class:",
 
-        class_1_name = "Wasteland Warrior",
-        class_1_desc = "Strong and tough",
+        class_1_name = "Warrior",
+        class_1_desc = "Balanced combatant in heavy steel",
 
-        class_2_name = "Nomad Raider",
-        class_2_desc = "Balanced and swift",
+        class_2_name = "Explorer",
+        class_2_desc = "Swift pathfinder of the ruins",
 
-        class_3_name = "Iron Mercenary",
-        class_3_desc = "High impact damage",
+        class_3_name = "Barbarian",
+        class_3_desc = "Unstoppable brute force",
 
-        class_1 = "1. Wasteland Warrior (Strong and tough)",
-        class_2 = "2. Nomad Raider (Balanced and swift)",
-        class_3 = "3. Iron Mercenary (High impact damage)",
+        class_1 = "1. Warrior (Balanced combatant in heavy steel)",
+        class_2 = "2. Explorer (Swift pathfinder of the ruins)",
+        class_3 = "3. Barbarian (Unstoppable brute force)",
 
         supplies = "DESCENT PREPARATION - Choose your supplies:",
 
-        supply_1_name = "Obsidian Amulet",
+        supply_1_name = "Explosive Runes",
         supply_2_name = "Whetstone",
-        supply_3_name = "Flask of Dark Water",
+        supply_3_name = "Health Potion",
 
-        supply_1 = "1. Obsidian Amulet (Magic protection)",
+        supply_1 = "1. Explosive Runes (Volatile magic runes)",
         supply_2 = "2. Whetstone (Sharpen weapons)",
-        supply_3 = "3. Flask of Dark Water (Heals severe wounds)",
+        supply_3 = "3. Health Potion (Restores health)",
 
         attack = "Attack",
         defend = "Defend",
@@ -60,15 +87,20 @@ i18n.translations = {
         exit_prompt = "[ Tap to exit ]",
 
         already_rest = "You already rested at this camp.",
+        ya_descansaste = "You already rested at this camp.",
         rested = "You rested. Recovered ",
+        descansaste_recuperaste = "You rested. Recovered ",
         rested_full = "You rested, but your HP was already full.",
+        descansaste_completo = "You rested, but your HP was already full.",
         sharpened = "You sharpened your weapon. Attack +",
+        afilaste_arma = "You sharpened your weapon. Attack +",
         no_whetstones = "You have no whetstones.",
+        no_piedras_afilar = "You have no whetstones.",
         fled = "You fled from the battle.",
 
-        loot_potion = "Healing Potion",
+        loot_potion = "Health Potion",
         loot_whetstone = "Whetstone",
-        loot_rune = "Ancient Rune",
+        loot_rune = "Explosive Rune",
 
         no_loot = "You found no items.",
 
@@ -98,6 +130,32 @@ i18n.translations = {
     },
 
     es = {
+        -- ==========================================
+        -- MENÚ DE PAUSA / OPCIONES GLOBALES
+        -- ==========================================
+        new_record = "¡Nuevo Récord!",
+        enter_name = "Ingresa tu nombre (máx. 16 caracteres):",
+        save_record = "Guardar Récord",
+        cancel = "Cancelar",
+        exit_game = "Salir del Juego",
+        resume_game = "Volver al Juego",
+        fullscreen_on = "Pantalla Completa: SÍ",
+        fullscreen_off = "Pantalla Completa: NO",
+        language_label = "Idioma: Español",
+        menu = "Menú",
+
+        -- ==========================================
+        -- RESTO DEL JUEGO
+        -- ==========================================
+        play_btn = "JUGAR",
+        records_btn = "VER RÉCORDS",
+        records_title = "MEJORES RÉCORDS",
+        no_records = "Aún no hay récords registrados.",
+        back = "VOLVER",
+
+        record_display = "Récord: Tier %d - Pelea %d/3",
+        record_victory = "Récord: ¡Tier 7 (Jefe Final alcanzado/superado)!",
+
         loot_found = "Encontraste: ",
 
         title = "BAUTISMO PROFANO",
@@ -105,28 +163,28 @@ i18n.translations = {
 
         arsenal = "MERCADO DE ACERO - Elige tu Clase:",
 
-        class_1_name = "Guerrero del Páramo",
-        class_1_desc = "Fuerte y resistente",
+        class_1_name = "Guerrero",
+        class_1_desc = "Combatiente equilibrado en acero pesado",
 
-        class_2_name = "Saqueador Nómada",
-        class_2_desc = "Equilibrado y veloz",
+        class_2_name = "Explorador",
+        class_2_desc = "Ágil rastreador de las ruinas",
 
-        class_3_name = "Mercenario de Hierro",
-        class_3_desc = "Alto daño de impacto",
+        class_3_name = "Bárbaro",
+        class_3_desc = "Fuerza bruta imparable",
 
-        class_1 = "1. Guerrero del Páramo (Fuerte y resistente)",
-        class_2 = "2. Saqueador Nómada (Equilibrado y veloz)",
-        class_3 = "3. Mercenario de Hierro (Alto daño de impacto)",
+        class_1 = "1. Guerrero (Combatiente equilibrado en acero pesado)",
+        class_2 = "2. Explorador (Ágil rastreador de las ruinas)",
+        class_3 = "3. Bárbaro (Fuerza bruta imparable)",
 
         supplies = "PREPARACIÓN PARA EL DESCENSO - Elige tus provisiones:",
 
-        supply_1_name = "Amuleto de Obsidiana",
+        supply_1_name = "Runas Explosivas",
         supply_2_name = "Piedra de Afilar",
-        supply_3_name = "Frasco de Agua Estigia",
+        supply_3_name = "Poción de Vida",
 
-        supply_1 = "1. Amuleto de Obsidiana (Protección contra magia)",
-        supply_2 = "2. Piedra de Afilar (Aumenta el filo de las armas)",
-        supply_3 = "3. Frasco de Agua Estigia (Cura heridas graves)",
+        supply_1 = "1. Runas Explosivas (Runas mágicas volátiles)",
+        supply_2 = "2. Piedra de Afilar (Afila las armas)",
+        supply_3 = "3. Poción de Vida (Restaura la salud)",
 
         attack = "Atacar",
         defend = "Defender",
@@ -153,15 +211,20 @@ i18n.translations = {
         exit_prompt = "[ Toca para salir ]",
 
         already_rest = "Ya has descansado en este campamento.",
+        ya_descansaste = "Ya has descansado en este campamento.",
         rested = "Has descansado. Recuperaste ",
+        descansaste_recuperaste = "Has descansado. Recuperaste ",
         rested_full = "Has descansado, pero ya tenías el HP completo.",
+        descansaste_completo = "Has descansado, pero ya tenías el HP completo.",
         sharpened = "Has afilado tu arma. Ataque +",
+        afilaste_arma = "Has afilado tu arma. Ataque +",
         no_whetstones = "No tienes piedras de afilar.",
+        no_piedras_afilar = "No tienes piedras de afilar.",
         fled = "Huiste del combate.",
 
-        loot_potion = "Poción de Curación",
+        loot_potion = "Poción de Vida",
         loot_whetstone = "Piedra de Afilar",
-        loot_rune = "Runa Antigua",
+        loot_rune = "Runa Explosiva",
 
         no_loot = "No encontraste ningún objeto.",
 
@@ -191,6 +254,33 @@ i18n.translations = {
     },
 
     pt = {
+        -- ==========================================
+        -- MENÚ DE PAUSA / OPCIONES GLOBALES
+        -- ==========================================
+        exit_game = "Sair do Jogo",
+        resume_game = "Voltar ao Jogo",
+        fullscreen_on = "Tela Cheia: SIM",
+        fullscreen_off = "Tela Cheia: NÃO",
+        language_label = "Idioma: Português",
+        menu = "Menu",
+
+        -- ==========================================
+        -- RESTO DEL JUEGO
+        -- ==========================================
+        new_record = "Novo Recorde!",
+        enter_name = "Digite seu nome (máx. 16 caracteres):",
+        save_record = "Salvar Recorde",
+        cancel = "Cancelar",
+
+        play_btn = "JOGAR",
+        records_btn = "VER RECORDES",
+        records_title = "MELHORES RECORDES",
+        no_records = "Ainda não há recordes registrados.",
+        back = "VOLTAR",
+
+        record_display = "Recorde: Tier %d - Luta %d/3",
+        record_victory = "Recorde: Tier 7 (Chefe Final alcançado/superado)!",
+
         loot_found = "Você encontrou: ",
 
         title = "BAUTISMO PROFANO",
@@ -198,28 +288,28 @@ i18n.translations = {
 
         arsenal = "MERCADO DE AÇO - Escolha sua Classe:",
 
-        class_1_name = "Guerreiro do Ermo",
-        class_1_desc = "Forte e resistente",
+        class_1_name = "Guerreiro",
+        class_1_desc = "Combatente equilibrado em aço pesado",
 
-        class_2_name = "Saqueador Nômade",
-        class_2_desc = "Equilibrado e veloz",
+        class_2_name = "Explorador",
+        class_2_desc = "Ágil rastreador das ruínas",
 
-        class_3_name = "Mercenário de Ferro",
-        class_3_desc = "Alto dano de impacto",
+        class_3_name = "Bárbaro",
+        class_3_desc = "Força bruta imparável",
 
-        class_1 = "1. Guerreiro do Ermo (Forte e resistente)",
-        class_2 = "2. Saqueador Nômade (Equilibrado e veloz)",
-        class_3 = "3. Mercenário de Ferro (Alto dano de impacto)",
+        class_1 = "1. Guerreiro (Combatente equilibrado em aço pesado)",
+        class_2 = "2. Explorador (Ágil rastreador das ruínas)",
+        class_3 = "3. Bárbaro (Força bruta imparável)",
 
         supplies = "PREPARAÇÃO PARA A DESCIDA - Escolha seus suprimentos:",
 
-        supply_1_name = "Amuleto de Obsidiana",
+        supply_1_name = "Runas Explosivas",
         supply_2_name = "Pedra de Amolar",
-        supply_3_name = "Frasco de Água Escura",
+        supply_3_name = "Poção de Vida",
 
-        supply_1 = "1. Amuleto de Obsidiana (Proteção contra magia)",
-        supply_2 = "2. Pedra de Amolar (Aumenta o corte das armas)",
-        supply_3 = "3. Frasco de Água Escura (Cura ferimentos graves)",
+        supply_1 = "1. Runas Explosivas (Runas mágicas voláteis)",
+        supply_2 = "2. Pedra de Amolar (Afia as armas)",
+        supply_3 = "3. Poção de Vida (Restaura a saúde)",
 
         attack = "Atacar",
         defend = "Defender",
@@ -252,9 +342,9 @@ i18n.translations = {
         no_whetstones = "Você não possui pedras de amolar.",
         fled = "Você fugiu da batalha.",
 
-        loot_potion = "Poção de Cura",
+        loot_potion = "Poção de Vida",
         loot_whetstone = "Pedra de Amolar",
-        loot_rune = "Runa Antiga",
+        loot_rune = "Runa Explosiva",
 
         no_loot = "Você não encontrou nenhum item.",
 
