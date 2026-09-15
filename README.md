@@ -1,71 +1,71 @@
-# 🩸 Bautismo Profano
+# 🩸 Dungeon Crawler
 
-> A dark, tactical combat game developed using LÖVE2D and Lua, designed for touch screens and mouse controls.
+> Un juego de combate táctico y oscuro desarrollado con LÖVE2D y Lua, diseñado para pantallas táctiles y controles con ratón.
 
-![Bautismo Profano Gameplay](https://raw.githubusercontent.com/necrisscript/bautismo_profano/main/docs/screenshot.png)
-
----
-
-## 🚀 Downloads (v0.1.0)
-
-Grab ready-to-run binaries from [Releases](https://github.com/necrisscript/bautismo_profano/releases/latest):
-
-* **Linux:** `bautismo_profano-linux.AppImage` (portable, grant execute permission to run)
-* **Windows:** `bautismo_profano.exe` (standalone executable)
+![Gameplay de Bautismo Profano](https://raw.githubusercontent.com/necrisscript/dungeon_crawler/main/docs/screenshot.png)
 
 ---
 
-## 🛠️ Project Architecture
+## 🚀 Descargas (v0.1.0)
 
-The project is modularly structured using LÖVE2D, clearly separating global configuration, the main game loop, combat logic, static data, entity management, and the user interface:
+Descarga los binarios listos para usar desde [Releases](https://github.com/necrisscript/dungeon_crawler/releases/latest):
+
+* **Linux:** `dungeon_crawler-linux.AppImage` — portable; dale permisos de ejecución para iniciarlo.
+* **Windows:** `dungeon_crawler.exe` — ejecutable independiente.
+
+---
+
+## 🛠️ Arquitectura del proyecto
+
+El proyecto está estructurado de forma modular usando LÖVE2D. La configuración global, el bucle principal del juego, la lógica de combate, los datos estáticos, la gestión de entidades y la interfaz de usuario están claramente separados:
 
 ```text
 .
-├── assets/                  # Visual assets (sprites, icons, and backgrounds)
-├── conf.lua                 # LÖVE2D window and engine configuration
+├── assets/                  # Recursos visuales: sprites, iconos y fondos
+├── conf.lua                 # Configuración de la ventana y del motor LÖVE2D
 ├── docs/
-│   └── screenshot.png       # Game preview screenshot
-├── main.lua                 # Entry point and main game loop
+│   └── screenshot.png       # Captura de pantalla del juego
+├── main.lua                 # Punto de entrada y bucle principal del juego
 └── src/
-    ├── data.lua             # Catalog of player classes, supplies, and floor-based enemies
-    ├── entities.lua         # Base class definitions (Entity, Player, Enemy) and metatables
-    ├── i18n.lua             # Internationalization system (ES / EN / PT)
-    ├── logic.lua            # BattleManager, turn loops, damage formulas, AI intent, and loot
-    └── ui.lua               # Screen rendering, menus, and touch-friendly UI layout
+    ├── data.lua             # Catálogo de clases, suministros y enemigos por planta
+    ├── entities.lua         # Definiciones base de entidades y metatablas
+    ├── i18n.lua             # Sistema de internacionalización: ES / EN / PT
+    ├── logic.lua            # Gestión de batallas, turnos, fórmulas de daño, IA y botín
+    └── ui.lua               # Renderizado, menús y diseño de interfaz táctil
 ```
 
 ---
 
-## ⚔️ Key Mechanics
+## ⚔️ Mecánicas principales
 
-* **Defense Mitigation:** Damage scales smoothly using a percentage reduction formula (attack * (100 / (100 + defense))) to prevent combat stagnation.
-* **Enemy Intent:** Enemies telegraph their next move (attack, defend, potion, or rune) so players can plan tactics.
-* **Dungeon Progression:** Enemies scale dynamically by floor using multipliers, culminating in a boss battle on floor 7.
+* **Mitigación de defensa:** el daño se calcula mediante una fórmula de reducción porcentual (`ataque * (100 / (100 + defensa))`) para evitar que los combates se estanquen.
+* **Intenciones enemigas:** los enemigos muestran su próximo movimiento —ataque, defensa, poción o runa— para que puedas planificar tus tácticas.
+* **Progresión de la mazmorra:** los enemigos escalan dinámicamente según la planta mediante multiplicadores, hasta llegar a un combate contra un jefe en la planta 7.
 
 ---
 
-## 🎮 Controls
+## 🎮 Controles
 
-| Action | Input |
+| Acción | Entrada |
 | --- | --- |
-| **Select / Interact** | `Left Click` / `Tap` |
-| **Attack / Use Skill** | `Drag & Release` / `Click` |
-| **Menu / Pause** | On-screen Button |
+| **Seleccionar / interactuar** | `Clic izquierdo` / `Toque` |
+| **Atacar / usar habilidad** | `Arrastrar y soltar` / `Clic` |
+| **Menú / pausa** | Botón en pantalla |
 
 ---
 
-## ⚙️ Installation & Execution
+## ⚙️ Instalación y ejecución
 
-If you prefer running from source instead of using the precompiled binaries:
+Si prefieres ejecutar el juego desde el código fuente en lugar de utilizar los binarios precompilados:
 
-1. Install the [LÖVE (Love2D)](https://love2d.org/) framework.
-2. Clone the repository:
+1. Instala el framework [LÖVE (Love2D)](https://love2d.org/).
+2. Clona el repositorio:
 
 ```bash
-git clone [https://github.com/necrisscript/bautismo_profano.git](https://github.com/necrisscript/bautismo_profano.git)
+git clone https://github.com/necrisscript/dungeon_crawler.git
 ```
 
-3. Run the game by dragging the root folder onto the LÖVE executable or via terminal:
+3. Ejecuta el juego arrastrando la carpeta raíz sobre el ejecutable de LÖVE o desde la terminal:
 
 ```bash
 love .
@@ -73,7 +73,13 @@ love .
 
 ---
 
-## 📜 License
+## 🧪 Estado del proyecto
 
-* **Source Code:** [MIT License](https://www.google.com/search?q=https://github.com/necrisscript/bautismo_profano/blob/main/LICENSE).
-* **Assets:** Generated via AI and free to use for this project.
+Este proyecto fue creado principalmente para experimentar, aprender y pasar un buen rato programando con *vibe coding*. Es funcional, pero no pretende ser una solución profesional ni estar listo para entornos de producción. Siéntete libre de usarlo, modificarlo y romper cosas bajo tu propia responsabilidad 😄
+
+---
+
+## 📜 Licencia
+
+* **Código fuente:** [Licencia MIT](https://www.google.com/search?q=https://github.com/necrisscript/dungeon_crawler/blob/main/LICENSE).
+* **Recursos:** generados mediante IA y disponibles para usarse en este proyecto.
