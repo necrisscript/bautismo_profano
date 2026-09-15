@@ -156,4 +156,3 @@ El juego está disponible en los siguientes idiomas:
 - **Recursos:** generados mediante IA y disponibles para su uso dentro de este proyecto.
 ```
 
-Corregí también el enlace de la licencia: el original pasaba por una búsqueda de Google en lugar de enlazar directamente al archivo `LICENSE` del repositorio.
