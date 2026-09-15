@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 Descargas (v0.1.0)
+## 🚀 Descargas (v0.2.0)
 
 Descarga los binarios listos para usar desde [Releases](https://github.com/necrisscript/bautismo_profano/releases/latest):
 
