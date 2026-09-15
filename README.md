@@ -73,12 +73,6 @@ love .
 
 ---
 
-## 🧪 Estado del proyecto
-
-Este proyecto fue creado principalmente para experimentar, aprender y pasar un buen rato programando con *vibe coding*. Es funcional, pero no pretende ser una solución profesional ni estar listo para entornos de producción. Siéntete libre de usarlo, modificarlo y romper cosas bajo tu propia responsabilidad 😄
-
----
-
 ## 📜 Licencia
 
 * **Código fuente:** [Licencia MIT](https://www.google.com/search?q=https://github.com/necrisscript/bautismo_profano/blob/main/LICENSE).
